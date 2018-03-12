@@ -1,0 +1,14 @@
+.gameboard {
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    text-align: center;
+}
+
+#instruction {
+    font-size: 20px;
+}
+
+table, td, tr {
+    border: 1px solid black;
+}

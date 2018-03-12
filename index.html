@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css"></head>
+</head>
+<body onload="newGame();">
+  <h1>Tic Tac Toe</h1>
+  <div id="instruction"></div>
+  <table>
+    <tr>
+      <td class="gameboard" id="box1" onclick="userMove(this)"></td>
+      <td class="gameboard" id="box2" onclick="userMove(this)"></td>
+      <td class="gameboard" id="box3" onclick="userMove(this)"></td>
+    </tr>
+    <tr>
+      <td class="gameboard" id="box4" onclick="userMove(this)"></td>
+      <td class="gameboard" id="box5" onclick="userMove(this)"></td>
+      <td class="gameboard" id="box6" onclick="userMove(this)"></td>
+    </tr>
+    <tr>
+      <td class="gameboard" id="box7" onclick="userMove(this)"></td>
+      <td class="gameboard" id="box8" onclick="userMove(this)"></td>
+      <td class="gameboard" id="box9" onclick="userMove(this)"></td>
+    </tr>
+  </table>
+  <button onclick="newGame();">New Game</button>
+  <script src="script.js"></script>
+</body>
+</html>
