@@ -1,3 +1,11 @@
+html {
+    background-color: #F7F7F7
+}
+
+body {
+    font-family: 'Mina', sans-serif;
+}
+
 .gameboard {
     height: 100px;
     width: 100px;
@@ -5,10 +13,45 @@
     text-align: center;
 }
 
-#instruction {
-    font-size: 20px;
+#board {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
 }
 
-table, td, tr {
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+
+#instruction {
+    font-size: 22px;
+}
+
+h1, #instruction, #reset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+td, tr {
     border: 1px solid black;
+    background-color: white;
+}
+
+#reset {
+    padding-top: 20px;
+}
+
+#reset-btn {
+    border-radius: 0.2em;
+    box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: #86A397;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    border: none;
 }
